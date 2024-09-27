@@ -19,7 +19,7 @@ Scanner s = new Scanner(System.in);
     } else {
       int g = 2;
       switch(j1) {
-        case "piedra":
+        case "piedra"://se cambiaron de == a equals 
           if (j2.equals("tijeras")) {
             g = 1;
           }
@@ -29,7 +29,7 @@ Scanner s = new Scanner(System.in);
             g = 1;
           }//se agrego un } debido a que no estaba cerrado
           break;
-        case "tijera":
+        case "tijeras"://se agrego la s en tijera, ya que estaba mal
           if (j2.equals("papel")) {
             g = 1;
           }
